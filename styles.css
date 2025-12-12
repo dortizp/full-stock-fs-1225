@@ -9,12 +9,15 @@ body {
     font-size: 2.25rem;
     font-weight: 800;
     line-height: 40px;
+    margin-bottom: 2rem;
 }
 
 .subtitle {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 p, li {
@@ -23,10 +26,41 @@ p, li {
     line-height: 1.75rem;
 }
 
+ol {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
 strong {
     font-weight: 700 ;
 }
 
 a:visited {
     color: #3F3FC6;
+}
+
+main {
+    max-width: 48rem;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+header, footer {
+    width: 100%;
+    padding: 1.25rem 2rem;
+}
+
+header {
+    border: none;
+    border-bottom: 1px  solid #171717;
+}
+
+footer {
+    border: none;
+    border-top: 1px  solid #171717;
 }
