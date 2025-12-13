@@ -7,7 +7,7 @@
 - [x] Ejercicio: "Quienes Somos - Full Stock"
 - [x] Ejercicio: "Estilización Básica con CSS - Full Stock" 
 - [x] Ejercicio: "Estructura Semántica y Box Model - Full Stock"
-- [.] Desafío - Páginas de Contenido y Navegación
+- [x] Desafío - Páginas de Contenido y Navegación
 
 ### Semana 2
 
