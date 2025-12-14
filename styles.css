@@ -43,13 +43,6 @@ a:visited {
     color: #3F3FC6;
 }
 
-main {
-    max-width: 48rem;
-    margin: 0 auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-}
-
 header, footer {
     padding: 1.25rem 7rem;
 }
@@ -94,4 +87,49 @@ nav a:visited {
     text-decoration: none;
     color: #60646C;
 
+}
+
+.categories {
+    padding: 3rem 5rem;
+}
+
+.categories h2 {
+    color: #1C2024;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+.categories p {
+    color: #60646C;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.content {
+    padding: 0 2rem;
+}
+
+.category-list {
+    display: flex;
+    column-gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.category-image {
+    max-width: 384px;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.categories .category-title {
+    font-weight: 600;
+    color: #1C2024;
+}
+
+.about-content {
+    margin: 4rem auto;
+    max-width: 768px;
 }
