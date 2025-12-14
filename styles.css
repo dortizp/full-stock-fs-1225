@@ -51,13 +51,24 @@ main {
 }
 
 header, footer {
-    width: 100%;
     padding: 1.25rem 7rem;
 }
 
 header {
     border: none;
     border-bottom: 1px  solid #171717;
+    padding: 0 5rem;
+}
+
+header .container {
+    padding: 0 2rem;
+}
+
+header .container .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
 }
 
 footer {
@@ -70,5 +81,17 @@ header nav {
 }
 
 nav a, header span {
-    margin-right: 1rem;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-decoration: none;
+    color: #60646C;
+    padding: 0 12px;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #60646C;
+
 }
