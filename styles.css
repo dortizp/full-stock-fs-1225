@@ -93,11 +93,12 @@ nav a:visited {
     padding: 3rem 5rem;
 }
 
-.categories h2 {
+.categories-title {
     color: #1C2024;
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .categories p {
@@ -117,11 +118,21 @@ nav a:visited {
     margin-top: 2.5rem;
 }
 
+.category-item {
+    display: flex;
+    flex-direction: column;
+}
+
 .category-image {
     max-width: 384px;
     aspect-ratio: 4/5;
     object-fit: cover;
     border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.category-title {
+    margin-bottom: 0.5rem;
 }
 
 .categories .category-title {
@@ -132,4 +143,61 @@ nav a:visited {
 .about-content {
     margin: 4rem auto;
     max-width: 768px;
+}
+
+.hero {
+    background-image: url(./hero-background.png);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    
+    min-height: 784px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 48rem;
+    text-align: center;
+    row-gap: 1rem;
+}
+
+.hero-title, .hero-description {
+    color: white;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+}
+
+.hero-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.hero-action {
+    color: white;
+    background-color: #5B5BD6;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 175px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 2rem;
 }
