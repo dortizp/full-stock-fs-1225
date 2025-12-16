@@ -13,8 +13,8 @@
 
 - [x] Ejercicio: "Maquetación del Header y Categorías - Full Stock"
 - [x] Ejercicio: "Maquetación de la Sección Hero - Full Stock"
-- [ ] Ejercicio: "Responsive Design con Media Queries - Full Stock"
-- [ ] Ejercicio: "Maquetación del Footer con Formulario"
+- [x] Ejercicio: "Responsive Design con Media Queries - Full Stock"
+- [x] Ejercicio: "Maquetación del Footer con Formulario"
 - [ ] Desafío - Maquetación Completa del Home Page
 
 
