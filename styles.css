@@ -71,6 +71,7 @@ footer {
 
 header nav {
     display: inline;
+    visibility: hidden; /* oculto para pantallas pequenas por defecto */
 }
 
 nav a, header span {
@@ -90,14 +91,19 @@ nav a:visited {
 }
 
 .categories {
-    padding: 3rem 5rem;
+    padding: 3rem 0rem; /* sin padding left y right para pantallas pequenas */
+}
+
+.categories .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .categories-title {
     color: #1C2024;
-    font-size: 2.25rem;
+    font-size: 1.5px; /* titulo para pantallas pequenas por defecto */
     font-weight: 700;
-    line-height: 2.5rem;
+    line-height: 2rem; /* titulo para pantallas pequenas por defecto */
     margin-bottom: 1rem;
 }
 
@@ -114,6 +120,7 @@ nav a:visited {
 
 .category-list {
     display: flex;
+    flex-direction: column; /* orientacion vertical para pantallas pequenas por defecto */
     column-gap: 2rem;
     margin-top: 2.5rem;
 }
@@ -125,7 +132,7 @@ nav a:visited {
 
 .category-image {
     max-width: 384px;
-    aspect-ratio: 4/5;
+    aspect-ratio: 1/1; /* aspect ratio 1/1 para pantallas pequenas por defecto */
     object-fit: cover;
     border-radius: 1rem;
     margin-bottom: 1rem;
@@ -179,8 +186,8 @@ nav a:visited {
 
 .hero-title {
     font-weight: 700;
-    font-size: 3.75rem;
-    line-height: 3.75rem;
+    font-size: 2.25rem; /* title para pantallas pequenas por defecto */
+    line-height: 2.5rem; /* title para pantallas pequenas por defecto */
 }
 
 .hero-description {
@@ -201,3 +208,46 @@ nav a:visited {
     border: none;
     margin-top: 2rem;
 }
+
+/* estilos para pantallas medianas (tablet) desde 640px o 40rem */
+@media screen and (min-width: 40rem) {
+    header nav {
+        visibility: visible;
+    }
+
+    .category-list {
+        flex-direction: row;
+    }
+
+    .category-image {
+        aspect-ratio: 4/5;
+    }
+
+    /*
+    Los headings (Hero y Categories) modifican su tamaño y alto de línea
+     */
+    .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .hero-title {
+        font-size: 3.75rem;
+        line-height: 3.75rem;
+    }
+
+    .categories-title {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+
+
+}
+
+@media screen and (min-width: 64rem) {
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
