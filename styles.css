@@ -301,6 +301,73 @@ footer .copyright {
     text-align: center;
 }
 
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.features .container {
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.features .container .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features .container .content .features-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.features .features-title {
+    margin-bottom: 3rem;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.features .feature-image {
+    /* width: 4rem; */
+    width: auto;
+    height: 4rem;
+    /* height: 4rem; */
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.feature-item .feature-image {
+    margin-bottom: 1.5rem;
+}
+
+.feature-item .feature-title {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C2024;
+}
+
+.feature-item .feature-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #60646C;
+
+}
+
 /* estilos para pantallas medianas (tablet) desde 640px o 40rem */
 @media screen and (min-width: 40rem) {
     header nav {
@@ -338,7 +405,18 @@ footer .copyright {
         flex-wrap: nowrap;
     }
     
+    .features .container .content .features-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        row-gap: 2rem;
+        flex-wrap: wrap;
+    }
 
+    .features .container .content .feature-item {
+        flex: 1;
+        min-width: 20rem;
+    }
 }
 
 @media screen and (min-width: 64rem) {
@@ -350,6 +428,15 @@ footer .copyright {
     footer .main-content { 
         flex-direction: row;
     }
- 
+    
+    .features .container .content .features-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        row-gap: 2rem;
+        flex-wrap: nowrap;
+    }
+
+
 }
 
