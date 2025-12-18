@@ -1,0 +1,28 @@
+/*
+@import url('')
+*/
+
+/*
+
+
+BEM
+
+B: bloque (block)
+E: elemento (element) 
+M: modificador (modifier)
+
+B__E--M
+
+.header {}
+
+.header__logo {}
+
+.header__logo--dark {}
+
+
+.title {
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+*/
