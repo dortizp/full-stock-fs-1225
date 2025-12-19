@@ -1,28 +1,13 @@
-/*
-@import url('')
-*/
+/* 1. Foundation */
+@import url(1-foundation/tokens.css);
+@import url(1-foundation/reset.css);
+@import url(1-foundation/global.css);
 
-/*
+/* 2. Layout */
+@import url(2-layout/container.css);
+@import url(2-layout/section.css);
+@import url(2-layout/section-sm.css);
 
-
-BEM
-
-B: bloque (block)
-E: elemento (element) 
-M: modificador (modifier)
-
-B__E--M
-
-.header {}
-
-.header__logo {}
-
-.header__logo--dark {}
-
-
-.title {
-    font-size: 1rem;
-    color: var(--primary-color);
-}
-
-*/
+/* 3. Components */
+@import url(3-components/category.css);
+@import url(3-components/categories.css);
