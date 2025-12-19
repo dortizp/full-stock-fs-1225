@@ -1,11 +1,26 @@
 .category {
+    text-decoration: none;
+    flex: 1;
 }
 
+a.category:visited {
+    color: var(--foreground);
+
+}
+
+
 .category__image {
-  width: 21rem;
-  height: 14rem;
-  border-radius: 0.75rem;
+  /* width: 21rem; */
+  /* height: 14rem; */
+  border-radius: 1rem;
   margin-bottom: 1rem;
+}
+
+.category__image img {
+  object-fit: cover;
+  /* height: 220px; */
+  border-radius: 1rem;
+  aspect-ratio: 1/1;
 }
 
 .category__title {
@@ -22,4 +37,11 @@
   font-size: 0.875rem;
   line-height: 1.25rem;
   letter-spacing: 0px;
+}
+
+@media screen and (min-width: 40rem) {
+    .category__image img {
+        aspect-ratio: 4/5;
+        height: 220px;
+    }
 }
