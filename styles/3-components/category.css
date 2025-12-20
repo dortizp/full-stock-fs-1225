@@ -42,6 +42,6 @@ a.category:visited {
 @media screen and (min-width: 40rem) {
     .category__image img {
         aspect-ratio: 4/5;
-        height: 220px;
+        /* height: 220px; */
     }
 }
