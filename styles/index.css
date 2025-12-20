@@ -11,3 +11,5 @@
 /* 3. Components */
 @import url(3-components/category.css);
 @import url(3-components/categories.css);
+@import url(3-components/quality-promise.css);
+@import url(3-components/quality-item.css);

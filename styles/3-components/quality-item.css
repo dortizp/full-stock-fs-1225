@@ -1,0 +1,38 @@
+.quality-item__image {
+    width: auto;
+    height: 4rem;
+}
+
+.quality-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.quality-item .quality-item__image {
+    margin-bottom: 1.5rem;
+}
+
+.quality-item .quality-item__title {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--foreground);
+}
+
+.quality-item .quality-item__description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: var(--muted-foreground);
+}
+
+@media screen and (min-width: 40rem) {
+    .quality-item {
+        flex: 1;
+        min-width: 20rem;
+    }
+}
