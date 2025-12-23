@@ -12,6 +12,7 @@
   color: var(--primary-foreground);
   background-color: var(--primary-background);
   cursor: pointer;
+  border: none;
 }
 
 .button svg {
