@@ -1,8 +1,6 @@
 .main-header {
-    /* padding: 1.25rem 7rem;  */ 
     border: none;
     border-bottom: 1px  solid #D9D9E0;
-    padding: 0 5rem;
 }
 .main-header__content {
     display: flex;

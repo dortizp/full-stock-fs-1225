@@ -21,7 +21,7 @@
 
 - [x] Ejercicio: "Implementa FullStock UI"
 - [x] Ejercicio: Refactoriza la Promesa de Calidad con ITCSS + BEM
-- [ ] Ejercicio: Refactoriza Header y Hero con ITCSS + BEM
+- [x] Ejercicio: Refactoriza Header y Hero con ITCSS + BEM
 - [ ] Desafío - Completar migración a nueva arquitectura CSS
 
 
