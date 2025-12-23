@@ -1,0 +1,13 @@
+.main-nav {
+    display: inline;
+    visibility: hidden; /* oculto para pantallas pequenas por defecto */
+}
+
+
+/* estilos para pantallas medianas (tablet) desde 640px o 40rem */
+@media screen and (min-width: 40rem) {
+    .main-nav {
+        visibility: visible;
+    }
+}
+

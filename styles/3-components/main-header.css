@@ -1,0 +1,17 @@
+.main-header {
+    /* padding: 1.25rem 7rem;  */ 
+    border: none;
+    border-bottom: 1px  solid #D9D9E0;
+    padding: 0 5rem;
+}
+.main-header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.main-header__cart img {
+    height: 24px;
+    width: 24px;
+}
