@@ -2,7 +2,6 @@
     display: none;
 }
 
-
 /* estilos para pantallas medianas (tablet) desde 640px o 40rem */
 @media screen and (min-width: 40rem) {
     .main-nav {

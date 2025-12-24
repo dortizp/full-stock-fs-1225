@@ -30,16 +30,3 @@ form {
     width: 230px;
     height: 40px;
 }
-
-.form-subscribe {
-    background-color: #F0F0F3;
-    border-radius: 1rem;
-    border: none;
-    height: 40px;
-    padding: 9px 14px;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: 500;
-    color: #60646C;
-    
-}
