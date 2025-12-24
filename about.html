@@ -2,25 +2,25 @@
 <html lang="es">
   <head>
     <title>Quienes somos | Full Stock</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="/styles/index.css" />
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <div class="container">
-        <div class="content">
-          <img src="./logo-full-stock.svg" alt="Logo Full Stock" />
-          <nav>
-            <a href="">Polos</a>
-            <a href="">Tazas</a>
-            <a href="">Stickers</a>
+        <div class="main-header__content">
+          <img
+            src="./logo-full-stock.svg"
+            alt="Logo Full Stock"
+            class="main-header__logo"
+          />
+          <nav class="main-nav">
+            <a href="" class="nav-item">Polos</a>
+            <a href="" class="nav-item">Tazas</a>
+            <a href="" class="nav-item">Stickers</a>
           </nav>
-          <a href=""><img src="./cart.svg" alt="icono carrito de compras" /></a>
+          <a href="" class="main-header__cart"
+            ><img src="./cart.svg" alt="icono carrito de compras"
+          /></a>
         </div>
       </div>
     </header>
@@ -87,42 +87,5 @@
         </p>
       </div>
     </main>
-    <footer>
-      <div class="content">
-        <div class="main-content">
-          <nav>
-            <div class="nav-item">
-              <p>Tienda</p>
-              <a href="">Polos</a>
-              <a href="">Tazas</a>
-              <a href="">Stickers</a>
-            </div>
-            <div class="nav-item">
-              <p>Compañía</p>
-              <a href="">Quienes somos</a>
-              <a href="">Términos y condiciones</a>
-              <a href="">Privacidad</a>
-            </div>
-            <div class="nav-item">
-              <p>Conecta</p>
-              <a href="">WhatsApp</a>
-              <a href="">Facebook</a>
-              <a href="">Instagram</a>
-            </div>
-          </nav>
-          <div class="newsletter">
-            <p class="form-title">Suscríbete a nuestro boletín</p>
-            <p class="form-description">
-              Recibe las últimas ofertas y descuentos en tu correo semanalmente.
-            </p>
-            <form action="">
-              <input type="text" class="form-email" />
-              <button class="form-subscribe">Suscribirse</button>
-            </form>
-          </div>
-        </div>
-        <div class="copyright">Todos los derechos reservados © Full Stock</div>
-      </div>
-    </footer>
   </body>
 </html>

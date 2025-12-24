@@ -1,0 +1,160 @@
+.content {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 48rem;
+}
+.content h1 {
+  font-weight: 800;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  letter-spacing: 0;
+  margin-bottom: 2rem;
+}
+
+.content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0;
+}
+
+.content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  letter-spacing: 0;
+}
+
+.content h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0;
+}
+
+.content ol,
+content ul {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  column-gap: 0.5rem;
+}
+
+.content li {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0;
+}
+
+.content hr {
+  color: #d9d9e0;
+}
+
+.content p {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0;
+}
+
+.content li p {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.content strong {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0;
+}
+
+.content h1 strong {
+  font-weight: 900;
+}
+.content h2 strong {
+  font-weight: 800;
+}
+.content h3 strong {
+  font-weight: 700;
+}
+.content h4 strong {
+  font-weight: 700;
+}
+
+.content a {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  color: var(--accent-foreground);
+}
+
+.content code {
+  font-size: 87.5%;
+}
+
+.content code::before {
+  content: "`";
+}
+.content code::after {
+  content: "`";
+}
+
+.content pre {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: var(--family-code);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0;
+  color: var(--muted);
+}
+
+.content img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.content figure {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content table {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  table-layout: auto;
+}
+
+.content blockquote {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content blockquote p:first-of-type::before {
+  content: "“";
+}
+.content blockquote p:first-of-type::after {
+  content: "“";
+}

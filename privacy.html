@@ -4,152 +4,170 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <div class="container">
-        <div class="content">
-          <img src="./logo-full-stock.svg" alt="Logo Full Stock" />
-          <nav>
-            <a href="">Polos</a>
-            <a href="">Tazas</a>
-            <a href="">Stickers</a>
+        <div class="main-header__content">
+          <img
+            src="./logo-full-stock.svg"
+            alt="Logo Full Stock"
+            class="main-header__logo"
+          />
+          <nav class="main-nav">
+            <a href="" class="nav-item">Polos</a>
+            <a href="" class="nav-item">Tazas</a>
+            <a href="" class="nav-item">Stickers</a>
           </nav>
-          <a href=""><img src="./cart.svg" alt="icono carrito de compras" /></a>
+          <a href="" class="main-header__cart"
+            ><img src="./cart.svg" alt="icono carrito de compras"
+          /></a>
         </div>
       </div>
     </header>
     <main>
-      <h1 class="title">Política de Privacidad</h1>
-      <p><strong>Última actualización: 17 de octubre de 2025</strong></p>
-      <p>
-        En Full Stock, valoramos tu privacidad y nos comprometemos a proteger tu
-        información personal. Esta Política de Privacidad describe cómo
-        recopilamos, usamos y protegemos los datos que nos proporcionas a través
-        de nuestro sitio web, en cumplimiento con la Ley de Protección de Datos
-        Personales de Perú (Ley N° 29733).
-      </p>
-      <h2 class="subtitle">1. ¿Quién es el responsable de tus datos?</h2>
-      <p>
-        Full Stock es el titular del banco de datos en el que se almacenará tu
-        información y es responsable de su tratamiento.
-      </p>
-      <ul>
-        <li>Razón Social: Full Stock (Proyecto Académico)</li>
-        <li>
-          Correo electrónico de contacto:
+      <div class="content">
+        <h1 class="title">Política de Privacidad</h1>
+        <p><strong>Última actualización: 17 de octubre de 2025</strong></p>
+        <p>
+          En Full Stock, valoramos tu privacidad y nos comprometemos a proteger
+          tu información personal. Esta Política de Privacidad describe cómo
+          recopilamos, usamos y protegemos los datos que nos proporcionas a
+          través de nuestro sitio web, en cumplimiento con la Ley de Protección
+          de Datos Personales de Perú (Ley N° 29733).
+        </p>
+        <h2 class="subtitle">1. ¿Quién es el responsable de tus datos?</h2>
+        <p>
+          Full Stock es el titular del banco de datos en el que se almacenará tu
+          información y es responsable de su tratamiento.
+        </p>
+        <ul>
+          <li>Razón Social: Full Stock (Proyecto Académico)</li>
+          <li>
+            Correo electrónico de contacto:
+            <a href="mailto:privacidad-fullstock@codeable.la"
+              >privacidad-fullstock@codeable.la</a
+            >
+          </li>
+        </ul>
+        <h2 class="subtitle">3. ¿Para qué utilizamos tu información?</h2>
+        <p>Utilizamos tu información para las siguientes finalidades:</p>
+        <ul>
+          <li>
+            <strong>Gestionar tu carrito de compras:</strong>
+            El `full-stock-session-id` nos permite mantener los productos que
+            has agregado a tu carrito durante tu visita.
+          </li>
+          <li>
+            <strong>Procesar tus pedidos:</strong> Usamos los datos personales
+            que nos proporcionas en el formulario de pago (nombre, correo,
+            teléfono) para contactarte, coordinar el pago y gestionar el envío
+            de los productos que has solicitado.
+          </li>
+          <li>
+            <strong>Comunicarnos contigo:</strong> Para responder a tus
+            consultas o proporcionarte información relacionada con tu orden.
+          </li>
+        </ul>
+        <h2 class="subtitle">4. ¿Con quién compartimos tu información?</h2>
+        <p>
+          Tu información personal no será vendida, transferida ni compartida con
+          terceros sin tu consentimiento, salvo que sea necesario para cumplir
+          con los fines descritos anteriormente (por ejemplo, con la empresa de
+          mensajería para la entrega de tu pedido) o por requerimiento legal.
+        </p>
+        <h2 class="subtitle">5. ¿Cómo protegemos tu información?</h2>
+        <p>
+          Hemos implementado medidas de seguridad técnicas y organizativas para
+          proteger tus datos personales contra el acceso no autorizado, la
+          alteración, la divulgación o la destrucción.
+        </p>
+        <h2 class="subtitle">6. ¿Cuáles son tus derechos?</h2>
+        <p>De acuerdo con la Ley N° 29733, tienes derecho a:</p>
+        <ul>
+          <li><strong>Acceder</strong> a tus datos personales que tenemos.</li>
+          <li>
+            <strong>Rectificar</strong> tus datos si son inexactos o
+            incompletos.
+          </li>
+          <li>
+            <strong>Cancelar</strong> tu información de nuestro banco de datos.
+          </li>
+          <li>
+            <strong>Oponerte</strong> al tratamiento de tus datos para fines
+            específicos.
+          </li>
+        </ul>
+        <p>
+          Para ejercer cualquiera de estos derechos (conocidos como derechos
+          ARCO), puedes enviar una solicitud a nuestro correo electrónico
           <a href="mailto:privacidad-fullstock@codeable.la"
             >privacidad-fullstock@codeable.la</a
-          >
-        </li>
-      </ul>
-      <h2 class="subtitle">3. ¿Para qué utilizamos tu información?</h2>
-      <p>Utilizamos tu información para las siguientes finalidades:</p>
-      <ul>
-        <li>
-          <strong>Gestionar tu carrito de compras:</strong>
-          El `full-stock-session-id` nos permite mantener los productos que has
-          agregado a tu carrito durante tu visita.
-        </li>
-        <li>
-          <strong>Procesar tus pedidos:</strong> Usamos los datos personales que
-          nos proporcionas en el formulario de pago (nombre, correo, teléfono)
-          para contactarte, coordinar el pago y gestionar el envío de los
-          productos que has solicitado.
-        </li>
-        <li>
-          <strong>Comunicarnos contigo:</strong> Para responder a tus consultas
-          o proporcionarte información relacionada con tu orden.
-        </li>
-      </ul>
-      <h2 class="subtitle">4. ¿Con quién compartimos tu información?</h2>
-      <p>
-        Tu información personal no será vendida, transferida ni compartida con
-        terceros sin tu consentimiento, salvo que sea necesario para cumplir con
-        los fines descritos anteriormente (por ejemplo, con la empresa de
-        mensajería para la entrega de tu pedido) o por requerimiento legal.
-      </p>
-      <h2 class="subtitle">5. ¿Cómo protegemos tu información?</h2>
-      <p>
-        Hemos implementado medidas de seguridad técnicas y organizativas para
-        proteger tus datos personales contra el acceso no autorizado, la
-        alteración, la divulgación o la destrucción.
-      </p>
-      <h2 class="subtitle">6. ¿Cuáles son tus derechos?</h2>
-      <p>De acuerdo con la Ley N° 29733, tienes derecho a:</p>
-      <ul>
-        <li><strong>Acceder</strong> a tus datos personales que tenemos.</li>
-        <li>
-          <strong>Rectificar</strong> tus datos si son inexactos o incompletos.
-        </li>
-        <li>
-          <strong>Cancelar</strong> tu información de nuestro banco de datos.
-        </li>
-        <li>
-          <strong>Oponerte</strong> al tratamiento de tus datos para fines
-          específicos.
-        </li>
-      </ul>
-      <p>
-        Para ejercer cualquiera de estos derechos (conocidos como derechos
-        ARCO), puedes enviar una solicitud a nuestro correo electrónico
-        <a href="mailto:privacidad-fullstock@codeable.la"
-          >privacidad-fullstock@codeable.la</a
-        >, adjuntando una copia de tu DNI.
-      </p>
-      <h2 class="subtitle">7. Uso de Cookies</h2>
-      <p>
-        Nuestro sitio web utiliza cookies para mantener la sesión de tu carrito
-        de compras. Las cookies son pequeños archivos de texto que se almacenan
-        en tu navegador y no contienen información personal identificable.
-      </p>
-      <h2 class="subtitle">8. Cambios en esta Política</h2>
-      <p>
-        Nos reservamos el derecho de modificar esta Política de Privacidad en
-        cualquier momento. Cualquier cambio será publicado en esta página y la
-        fecha de "Última actualización" será modificada.
-      </p>
-      <p>
-        Si tienes alguna pregunta sobre cómo manejamos tu privacidad, no dudes
-        en contactarnos.
-      </p>
+          >, adjuntando una copia de tu DNI.
+        </p>
+        <h2 class="subtitle">7. Uso de Cookies</h2>
+        <p>
+          Nuestro sitio web utiliza cookies para mantener la sesión de tu
+          carrito de compras. Las cookies son pequeños archivos de texto que se
+          almacenan en tu navegador y no contienen información personal
+          identificable.
+        </p>
+        <h2 class="subtitle">8. Cambios en esta Política</h2>
+        <p>
+          Nos reservamos el derecho de modificar esta Política de Privacidad en
+          cualquier momento. Cualquier cambio será publicado en esta página y la
+          fecha de "Última actualización" será modificada.
+        </p>
+        <p>
+          Si tienes alguna pregunta sobre cómo manejamos tu privacidad, no dudes
+          en contactarnos.
+        </p>
+      </div>
     </main>
-    <footer>
-      <div class="content">
-        <div class="main-content">
-          <nav>
-            <div class="nav-item">
-              <p>Tienda</p>
-              <a href="">Polos</a>
-              <a href="">Tazas</a>
-              <a href="">Stickers</a>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="section">
+          <div class="main-footer__content">
+            <nav class="links-group">
+              <div class="nav-item">
+                <p class="nav-item__title">Tienda</p>
+                <a href="" class="links-group__link">Polos</a>
+                <a href="" class="links-group__link">Tazas</a>
+                <a href="" class="links-group__link">Stickers</a>
+              </div>
+              <div class="nav-item">
+                <p class="nav-item__title">Compañía</p>
+                <a href="" class="links-group__link">Quienes somos</a>
+                <a href="" class="links-group__link">Términos y condiciones</a>
+                <a href="" class="links-group__link">Privacidad</a>
+              </div>
+              <div class="nav-item">
+                <p class="nav-item__title">Conecta</p>
+                <a href="" class="links-group__link">WhatsApp</a>
+                <a href="" class="links-group__link">Facebook</a>
+                <a href="" class="links-group__link">Instagram</a>
+              </div>
+            </nav>
+            <div class="newsletter-form">
+              <p class="newsletter-form__title">Suscríbete a nuestro boletín</p>
+              <p class="newsletter-form__description">
+                Recibe las últimas ofertas y descuentos en tu correo
+                semanalmente.
+              </p>
+              <form action="">
+                <input type="text" class="newsletter-form__email" />
+                <button class="button button--secondary button--lg">
+                  Suscribirse
+                </button>
+              </form>
             </div>
-            <div class="nav-item">
-              <p>Compañía</p>
-              <a href="">Quienes somos</a>
-              <a href="">Términos y condiciones</a>
-              <a href="">Privacidad</a>
-            </div>
-            <div class="nav-item">
-              <p>Conecta</p>
-              <a href="">WhatsApp</a>
-              <a href="">Facebook</a>
-              <a href="">Instagram</a>
-            </div>
-          </nav>
-          <div class="newsletter">
-            <p class="form-title">Suscríbete a nuestro boletín</p>
-            <p class="form-description">
-              Recibe las últimas ofertas y descuentos en tu correo semanalmente.
-            </p>
-            <form action="">
-              <input type="text" class="form-email" />
-              <button class="form-subscribe">Suscribirse</button>
-            </form>
           </div>
+        </section>
+
+        <div class="main-footer__copyright">
+          <p>Todos los derechos reservados © Full Stock</p>
         </div>
-        <div class="copyright">Todos los derechos reservados © Full Stock</div>
       </div>
     </footer>
   </body>
