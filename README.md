@@ -20,18 +20,18 @@
 ### Semana 3
 
 - [x] **W3-E1 FullStock UI**
-    - d8c37d3 - Se agregaron carpetas ITCSS
-    - c03b4d7 - Se agregaron los componentes category y categories
-    - bd36172 - Se inicio el refactor de la seccion de categories en Home page
-    - e17fd0a - Se completo el refactor de la seccion de categories
+  - d8c37d3 - Se agregaron carpetas ITCSS
+  - c03b4d7 - Se agregaron los componentes category y categories
+  - bd36172 - Se inicio el refactor de la seccion de categories en Home page
+  - e17fd0a - Se completo el refactor de la seccion de categories
 - [x] **W3-E2 Promesa de Calidad**
-    - 9960e4c - Refactoriza Promesa de Calidad con ITCSS y BEM
+  - 9960e4c - Refactoriza Promesa de Calidad con ITCSS y BEM
 - [x] **W3-E3 Header y Hero**
-    - ce78b53 - Refactorizando Hero con ITCSS y BEM
-    - c569ed3 - Refactoriza Header con ITCSS y BEM
-    - fa795ec - componente Button con variantes agregado
-    - 99d2a93 - Se corrigieron estilos en las secciones main-header, hero, categories y quality-promise
+  - ce78b53 - Refactorizando Hero con ITCSS y BEM
+  - c569ed3 - Refactoriza Header con ITCSS y BEM
+  - fa795ec - componente Button con variantes agregado
+  - 99d2a93 - Se corrigieron estilos en las secciones main-header, hero, categories y quality-promise
 - [x] **W3-D1 Migracion CSS completa**
-    - b336bb0 - Se refactorizo el footer con ITCSS y BEM
-    - 6b82216 - Componente content agregado y aplicado en about, privacy y terms, usando ITCSS
-    - 9c5518e - Completa migración a arquitectura CSS con ITCSS + BEM y Dark Mode
+  - b336bb0 - Se refactorizo el footer con ITCSS y BEM
+  - 6b82216 - Componente content agregado y aplicado en about, privacy y terms, usando ITCSS
+  - 9c5518e - Completa migración a arquitectura CSS con ITCSS + BEM y Dark Mode
