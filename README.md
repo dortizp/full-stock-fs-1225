@@ -35,3 +35,11 @@
   - b336bb0 - Se refactorizo el footer con ITCSS y BEM
   - 6b82216 - Componente content agregado y aplicado en about, privacy y terms, usando ITCSS
   - 9c5518e - Completa migración a arquitectura CSS con ITCSS + BEM y Dark Mode
+
+### Semana 4
+
+- [.] W4-E1 Ejercicio: "Layouts con Grid y Catálogo de Productos"
+- [ ] W4-E2 Ejercicio: "Posicionamiento Avanzado en el Header"
+- [ ] W4-E3 Ejercicio: "Navegación Persistente"
+- [ ] W4-D1 Desafío: Página de Detalle de Producto
+

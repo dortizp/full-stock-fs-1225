@@ -7,6 +7,7 @@
 @import url(2-layout/container.css);
 @import url(2-layout/section.css);
 @import url(2-layout/section-sm.css);
+@import url(2-layout/vertical-page-layout.css);
 
 /* 3. Components */
 @import url(3-components/category.css);

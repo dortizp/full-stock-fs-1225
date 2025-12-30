@@ -1,0 +1,6 @@
+.vertical-page-layout {
+    /* completar clase con grid para este layout */
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
