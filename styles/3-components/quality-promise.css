@@ -17,8 +17,8 @@
 }
 
 .quality-promise .container .quality-promise__content .quality-promise__list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     align-items: center;
     row-gap: 2rem;
     column-gap: 2rem;
@@ -31,20 +31,20 @@
     line-height: 2rem;
 }
 
+/* pantallas medianas (tablet) */
 @media screen and (min-width: 40rem) {
    .quality-promise .container .quality-promise__content .quality-promise__list {
-        display: flex;
-        flex-direction: row;
+        grid-template-columns: repeat(2, 1fr);
         align-items: center;
         row-gap: 2rem;
-        flex-wrap: wrap;
     }
 
 }
 
+/* pantallas grandes (desktop) */
 @media screen and (min-width: 64rem) {
    .quality-promise .container .quality-promise__content .quality-promise__list {
-        flex-wrap: nowrap;
+        grid-template-columns: repeat(4, 1fr);
     }
 
 }
