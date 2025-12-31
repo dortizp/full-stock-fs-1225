@@ -1,15 +1,25 @@
 .main-header {
     border: none;
     border-bottom: 1px  solid #D9D9E0;
+    position: relative;
 }
 .main-header__content {
+    padding: 4px 0;
+}
+.main-header__top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 12px 0;
+    border-bottom-color: #D9D9E0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
-
 .main-header__cart img {
     height: 24px;
     width: 24px;
 }
+@media screen and (min-width: 40rem) {
+    .main-header__top {
+        border: none;
+   }
+}
+
