@@ -8,6 +8,7 @@
 @import url(2-layout/section.css);
 @import url(2-layout/section-sm.css);
 @import url(2-layout/vertical-page-layout.css);
+@import url(2-layout/sidebar-layout.css);
 
 /* 3. Components */
 @import url(3-components/category.css);
@@ -23,3 +24,6 @@
 @import url(3-components/main-footer.css);
 @import url(3-components/newsletter-form.css);
 @import url(3-components/content.css);
+@import url(3-components/price-filter.css);
+@import url(3-components/product.css);
+@import url(3-components/products-grid.css);
