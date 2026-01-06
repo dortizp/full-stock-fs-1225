@@ -40,6 +40,6 @@
 
 - [x] W4-E1 Ejercicio: "Layouts con Grid y Catálogo de Productos"
 - [x] W4-E2 Ejercicio: "Posicionamiento Avanzado en el Header"
-- [ ] W4-E3 Ejercicio: "Navegación Persistente"
+- [x] W4-E3 Ejercicio: "Navegación Persistente"
 - [ ] W4-D1 Desafío: Página de Detalle de Producto
 
