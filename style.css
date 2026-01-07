@@ -1,0 +1,18 @@
+.checkout-form {
+    display: grid;
+}
+.label-email {
+  color: #444;
+
+  /* text-sm/medium/none */
+  font-family: var(--font-family-text, Inter);
+  font-size: var(--font-size-3-5, 14px);
+  font-style: normal;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: 100%; /* 14px */
+}
+
+.input-email {
+  border-radius: 8px;
+  padding: 4px;
+}
