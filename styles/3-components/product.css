@@ -5,9 +5,14 @@
     background-color: var(--muted-background);
     display: grid;
     place-items: center;
+    overflow: hidden;
 }
 .product__image {
     object-fit: cover;
+    transition: transform 250ms;
+}
+.product__image:hover {
+    transform: scale(1.05);
 }
 .product__content {
     padding: 1rem;

@@ -13,6 +13,8 @@
   background-color: var(--primary-background);
   cursor: pointer;
   border: none;
+
+  transition: background-color 250ms;
 }
 
 .button svg {

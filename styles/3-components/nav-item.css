@@ -6,6 +6,7 @@
     text-decoration: none;
     color: var(--muted-foreground);
     padding: 0 12px;
+    transition: background-color 200ms;
 }
 
 nav a:visited {
@@ -13,3 +14,6 @@ nav a:visited {
     color: var(--muted-foreground);
 }
 
+.nav-item:hover {
+    background-color: var(--muted-background);
+}

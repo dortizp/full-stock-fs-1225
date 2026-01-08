@@ -41,12 +41,12 @@
 - [x] W4-E1 Ejercicio: "Layouts con Grid y Catálogo de Productos"
 - [x] W4-E2 Ejercicio: "Posicionamiento Avanzado en el Header"
 - [x] W4-E3 Ejercicio: "Navegación Persistente"
-- [ ] W4-D1 Desafío: Página de Detalle de Producto
+- [x] W4-D1 Desafío: Página de Detalle de Producto
 
 ### Semana 5
 
 - [.] W5-E1 Ejercicio: Estilizando Formularios
-- [ ] W5-E2 Ejercicio: "Micro-interacciones"
+- [.] W5-E2 Ejercicio: "Micro-interacciones"
 - [ ] W5-E3 Ejercicio: "Animaciones en Hero y Botón de Producto"
 - [ ] W5-D1 Proyecto Final: Completando el Flujo de Compra
 
