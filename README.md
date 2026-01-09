@@ -46,7 +46,7 @@
 ### Semana 5
 
 - [.] W5-E1 Ejercicio: Estilizando Formularios
-- [.] W5-E2 Ejercicio: "Micro-interacciones"
-- [ ] W5-E3 Ejercicio: "Animaciones en Hero y Botón de Producto"
+- [x] W5-E2 Ejercicio: "Micro-interacciones"
+- [x] W5-E3 Ejercicio: "Animaciones en Hero y Botón de Producto"
 - [ ] W5-D1 Proyecto Final: Completando el Flujo de Compra
 

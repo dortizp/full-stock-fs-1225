@@ -34,3 +34,22 @@
     font-weight: 400;
     color: var(--foreground);
 }
+
+.product-detail__info button {
+    animation: ripple;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 var(--accent-a3);
+    }
+    50% {
+        box-shadow: 0 0 0 10px  var(--accent-a2);
+    }
+    100% {
+        box-shadow: 0 0 0 10px  var(--accent-a1);
+    }
+}

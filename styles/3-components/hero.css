@@ -30,6 +30,12 @@
   font-size: 2.25rem;
   line-height: 2.5rem;
   margin-bottom: 1rem;
+
+  /* animacion: opcion 1 */
+  animation: aparecer-izquierda 800ms;
+
+  /* animacion: opcion 2 */
+  /* animation: aparecer-abajo 800ms; */
 }
 
 .hero__description {
@@ -37,6 +43,72 @@
   font-size: 20px;
   line-height: 28px;
   margin-bottom: 2rem;
+
+  /* animacion: opcion 1 */
+  animation: aparecer-derecha 800ms;
+
+  /* animacion: opcion 2 */
+  /*
+  animation: aparecer-abajo 800ms;
+  animation-delay: 200ms;
+  animation-fill-mode: backwards;
+  */
+}
+
+.hero__content button {
+  /* animacion: opcion 1 */
+  animation: aparecer 1000ms;
+
+  /* animacion: opcion 2 */
+  /*
+  animation-delay: 800ms;
+  animation: aparecer-abajo 1000ms;
+  animation-delay: 400ms;
+  animation-fill-mode: backwards;
+  */
+}
+
+@keyframes aparecer-izquierda {
+  0% {
+    transform: translateX(-5%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer-derecha {
+  0% {
+    transform: translateX(5%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer-abajo {
+  0% {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
 
 /* estilos para pantallas medianas (tablet) desde 640px o 40rem */
